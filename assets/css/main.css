@@ -1,0 +1,10 @@
+body {
+	color: rgb(0, 0, 0);
+	font-family: 'Saira Semi Condensed', sans-serif;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
