@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <header>
@@ -8,11 +9,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width" />
 
+    <audio autoplay loop>
+		<source src="assets/music/music.mp3">
+			<script>
+				var audio = document.currentScript.parentElement;
+				audio.volume = 0.3;
+			</script>
+		</source>
+    </audio>
+
     <title>Kevin Chu</title>
 </header>
 
 <body>
-	<center><h1>Hello, my name is Kevin Chu</h1></center>
+	<div id="main">
+		<h1>Hello, my name is Kevin Chu</h1>
+	</div>
 </body>
 
 </html>
